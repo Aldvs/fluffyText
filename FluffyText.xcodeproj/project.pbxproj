@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D3F7912BE4E29500B80EC8 /* FluffyTextApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3F7902BE4E29500B80EC8 /* FluffyTextApp.swift */; };
+		84D3F7932BE4E29500B80EC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3F7922BE4E29500B80EC8 /* ContentView.swift */; };
+		84D3F7952BE4E29700B80EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D3F7942BE4E29700B80EC8 /* Assets.xcassets */; };
+		84D3F7982BE4E29700B80EC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D3F7972BE4E29700B80EC8 /* Preview Assets.xcassets */; };
+		84D3F7A22BE4E29800B80EC8 /* FluffyTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3F7A12BE4E29800B80EC8 /* FluffyTextTests.swift */; };
+		84D3F7AC2BE4E29800B80EC8 /* FluffyTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3F7AB2BE4E29800B80EC8 /* FluffyTextUITests.swift */; };
+		84D3F7AE2BE4E29800B80EC8 /* FluffyTextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D3F7AD2BE4E29800B80EC8 /* FluffyTextUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D3F79E2BE4E29800B80EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D3F7852BE4E29500B80EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D3F78C2BE4E29500B80EC8;
+			remoteInfo = FluffyText;
+		};
+		84D3F7A82BE4E29800B80EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D3F7852BE4E29500B80EC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D3F78C2BE4E29500B80EC8;
+			remoteInfo = FluffyText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D3F78D2BE4E29500B80EC8 /* FluffyText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluffyText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D3F7902BE4E29500B80EC8 /* FluffyTextApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluffyTextApp.swift; sourceTree = "<group>"; };
+		84D3F7922BE4E29500B80EC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84D3F7942BE4E29700B80EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D3F7972BE4E29700B80EC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84D3F79D2BE4E29800B80EC8 /* FluffyTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluffyTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D3F7A12BE4E29800B80EC8 /* FluffyTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluffyTextTests.swift; sourceTree = "<group>"; };
+		84D3F7A72BE4E29800B80EC8 /* FluffyTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluffyTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D3F7AB2BE4E29800B80EC8 /* FluffyTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluffyTextUITests.swift; sourceTree = "<group>"; };
+		84D3F7AD2BE4E29800B80EC8 /* FluffyTextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluffyTextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D3F78A2BE4E29500B80EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3F79A2BE4E29800B80EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3F7A42BE4E29800B80EC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D3F7842BE4E29500B80EC8 = {
+			isa = PBXGroup;
+			children = (
+				84D3F78F2BE4E29500B80EC8 /* FluffyText */,
+				84D3F7A02BE4E29800B80EC8 /* FluffyTextTests */,
+				84D3F7AA2BE4E29800B80EC8 /* FluffyTextUITests */,
+				84D3F78E2BE4E29500B80EC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D3F78E2BE4E29500B80EC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D3F78D2BE4E29500B80EC8 /* FluffyText.app */,
+				84D3F79D2BE4E29800B80EC8 /* FluffyTextTests.xctest */,
+				84D3F7A72BE4E29800B80EC8 /* FluffyTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D3F78F2BE4E29500B80EC8 /* FluffyText */ = {
+			isa = PBXGroup;
+			children = (
+				84D3F7902BE4E29500B80EC8 /* FluffyTextApp.swift */,
+				84D3F7922BE4E29500B80EC8 /* ContentView.swift */,
+				84D3F7942BE4E29700B80EC8 /* Assets.xcassets */,
+				84D3F7962BE4E29700B80EC8 /* Preview Content */,
+			);
+			path = FluffyText;
+			sourceTree = "<group>";
+		};
+		84D3F7962BE4E29700B80EC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84D3F7972BE4E29700B80EC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84D3F7A02BE4E29800B80EC8 /* FluffyTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D3F7A12BE4E29800B80EC8 /* FluffyTextTests.swift */,
+			);
+			path = FluffyTextTests;
+			sourceTree = "<group>";
+		};
+		84D3F7AA2BE4E29800B80EC8 /* FluffyTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D3F7AB2BE4E29800B80EC8 /* FluffyTextUITests.swift */,
+				84D3F7AD2BE4E29800B80EC8 /* FluffyTextUITestsLaunchTests.swift */,
+			);
+			path = FluffyTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D3F78C2BE4E29500B80EC8 /* FluffyText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3F7B12BE4E29800B80EC8 /* Build configuration list for PBXNativeTarget "FluffyText" */;
+			buildPhases = (
+				84D3F7892BE4E29500B80EC8 /* Sources */,
+				84D3F78A2BE4E29500B80EC8 /* Frameworks */,
+				84D3F78B2BE4E29500B80EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluffyText;
+			productName = FluffyText;
+			productReference = 84D3F78D2BE4E29500B80EC8 /* FluffyText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D3F79C2BE4E29800B80EC8 /* FluffyTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3F7B42BE4E29800B80EC8 /* Build configuration list for PBXNativeTarget "FluffyTextTests" */;
+			buildPhases = (
+				84D3F7992BE4E29800B80EC8 /* Sources */,
+				84D3F79A2BE4E29800B80EC8 /* Frameworks */,
+				84D3F79B2BE4E29800B80EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D3F79F2BE4E29800B80EC8 /* PBXTargetDependency */,
+			);
+			name = FluffyTextTests;
+			productName = FluffyTextTests;
+			productReference = 84D3F79D2BE4E29800B80EC8 /* FluffyTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D3F7A62BE4E29800B80EC8 /* FluffyTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3F7B72BE4E29800B80EC8 /* Build configuration list for PBXNativeTarget "FluffyTextUITests" */;
+			buildPhases = (
+				84D3F7A32BE4E29800B80EC8 /* Sources */,
+				84D3F7A42BE4E29800B80EC8 /* Frameworks */,
+				84D3F7A52BE4E29800B80EC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D3F7A92BE4E29800B80EC8 /* PBXTargetDependency */,
+			);
+			name = FluffyTextUITests;
+			productName = FluffyTextUITests;
+			productReference = 84D3F7A72BE4E29800B80EC8 /* FluffyTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D3F7852BE4E29500B80EC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					84D3F78C2BE4E29500B80EC8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					84D3F79C2BE4E29800B80EC8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 84D3F78C2BE4E29500B80EC8;
+					};
+					84D3F7A62BE4E29800B80EC8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 84D3F78C2BE4E29500B80EC8;
+					};
+				};
+			};
+			buildConfigurationList = 84D3F7882BE4E29500B80EC8 /* Build configuration list for PBXProject "FluffyText" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D3F7842BE4E29500B80EC8;
+			productRefGroup = 84D3F78E2BE4E29500B80EC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D3F78C2BE4E29500B80EC8 /* FluffyText */,
+				84D3F79C2BE4E29800B80EC8 /* FluffyTextTests */,
+				84D3F7A62BE4E29800B80EC8 /* FluffyTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D3F78B2BE4E29500B80EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3F7982BE4E29700B80EC8 /* Preview Assets.xcassets in Resources */,
+				84D3F7952BE4E29700B80EC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3F79B2BE4E29800B80EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3F7A52BE4E29800B80EC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D3F7892BE4E29500B80EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3F7932BE4E29500B80EC8 /* ContentView.swift in Sources */,
+				84D3F7912BE4E29500B80EC8 /* FluffyTextApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3F7992BE4E29800B80EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3F7A22BE4E29800B80EC8 /* FluffyTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3F7A32BE4E29800B80EC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3F7AC2BE4E29800B80EC8 /* FluffyTextUITests.swift in Sources */,
+				84D3F7AE2BE4E29800B80EC8 /* FluffyTextUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D3F79F2BE4E29800B80EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D3F78C2BE4E29500B80EC8 /* FluffyText */;
+			targetProxy = 84D3F79E2BE4E29800B80EC8 /* PBXContainerItemProxy */;
+		};
+		84D3F7A92BE4E29800B80EC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D3F78C2BE4E29500B80EC8 /* FluffyText */;
+			targetProxy = 84D3F7A82BE4E29800B80EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84D3F7AF2BE4E29800B80EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D3F7B02BE4E29800B80EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D3F7B22BE4E29800B80EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluffyText/Preview Content\"";
+				DEVELOPMENT_TEAM = DJT25Q6QHN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZpshTeam.FluffyText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D3F7B32BE4E29800B80EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FluffyText/Preview Content\"";
+				DEVELOPMENT_TEAM = DJT25Q6QHN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZpshTeam.FluffyText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84D3F7B52BE4E29800B80EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJT25Q6QHN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZpshTeam.FluffyTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluffyText.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FluffyText";
+			};
+			name = Debug;
+		};
+		84D3F7B62BE4E29800B80EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJT25Q6QHN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZpshTeam.FluffyTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FluffyText.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FluffyText";
+			};
+			name = Release;
+		};
+		84D3F7B82BE4E29800B80EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJT25Q6QHN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZpshTeam.FluffyTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FluffyText;
+			};
+			name = Debug;
+		};
+		84D3F7B92BE4E29800B80EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJT25Q6QHN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZpshTeam.FluffyTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FluffyText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D3F7882BE4E29500B80EC8 /* Build configuration list for PBXProject "FluffyText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3F7AF2BE4E29800B80EC8 /* Debug */,
+				84D3F7B02BE4E29800B80EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3F7B12BE4E29800B80EC8 /* Build configuration list for PBXNativeTarget "FluffyText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3F7B22BE4E29800B80EC8 /* Debug */,
+				84D3F7B32BE4E29800B80EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3F7B42BE4E29800B80EC8 /* Build configuration list for PBXNativeTarget "FluffyTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3F7B52BE4E29800B80EC8 /* Debug */,
+				84D3F7B62BE4E29800B80EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3F7B72BE4E29800B80EC8 /* Build configuration list for PBXNativeTarget "FluffyTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3F7B82BE4E29800B80EC8 /* Debug */,
+				84D3F7B92BE4E29800B80EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D3F7852BE4E29500B80EC8 /* Project object */;
+}
