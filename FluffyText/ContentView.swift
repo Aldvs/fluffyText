@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @State var sliderValue: CGFloat = 300.0
-    @State var animateGradient: Bool = false
     
     var body: some View {
         VStack {
